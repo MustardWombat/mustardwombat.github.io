@@ -399,11 +399,11 @@ footer {
 /* Responsive Design */
 @media (max-width: 768px) {
     .logo-full {
-        display: none;
+        display: none !important;
     }
 
     .logo-short {
-        display: block;
+        display: block !important;
         font-size: 1.8rem;
     }
 
