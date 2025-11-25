@@ -538,10 +538,6 @@ footer {
 
 /* Responsive Design */
 @media (max-width: 768px) {
-    .logo {
-        height: 35px;
-    }
-
     .logo-full {
         display: none !important;
     }
