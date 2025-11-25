@@ -81,7 +81,7 @@ function rotateBackground() {
     bgMedia[currentBg].classList.add('active');
 }
 
-// Rotate background every 5 seconds
+// Rotate background every 8 seconds
 if (bgMedia.length > 0) {
-    setInterval(rotateBackground, 5000);
+    setInterval(rotateBackground, 8000);
 }

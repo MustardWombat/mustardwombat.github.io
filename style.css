@@ -52,9 +52,9 @@ nav {
 }
 
 .logo {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: var(--white);
+    height: 40px;
+    width: auto;
+    display: block;
 }
 
 .logo-short {
@@ -525,6 +525,10 @@ footer {
 
 /* Responsive Design */
 @media (max-width: 768px) {
+    .logo {
+        height: 35px;
+    }
+
     .logo-full {
         display: none !important;
     }
