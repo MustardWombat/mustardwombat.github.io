@@ -51,3 +51,18 @@ document.querySelectorAll('.project-card, .skill-category').forEach(el => {
     el.style.opacity = '0';
     observer.observe(el);
 });
+
+// Background slideshow for hero section
+const bgMedia = document.querySelectorAll('.bg-video, .bg-image');
+let currentBg = 0;
+
+function rotateBackground() {
+    bgMedia[currentBg].classList.remove('active');
+    currentBg = (currentBg + 1) % bgMedia.length;
+    bgMedia[currentBg].classList.add('active');
+}
+
+// Rotate background every 5 seconds
+if (bgMedia.length > 0) {
+    setInterval(rotateBackground, 5000);
+}

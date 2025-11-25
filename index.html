@@ -23,7 +23,17 @@
 
     <main>
         <section id="hero">
-            <div class="hero-content">
+            <div class="hero-background">
+                <video class="bg-video active" autoplay muted loop playsinline>
+                    <source src="Images/autosteer_Tractor.mp4" type="video/mp4">
+                </video>
+                <img class="bg-image" src="Images/Piglet_pen.jpg" alt="Background">
+                <video class="bg-video" autoplay muted loop playsinline>
+                    <source src="Images/Robot Video.mov" type="video/mp4">
+                </video>
+            </div>
+            <div class="hero-overlay"></div>
+            <div class="hero-content"></div>
                 <div class="hero-text">
                     <h1>James Williams</h1>
                     <p class="subtitle">Technology Engineering | Mechatronics | CS Minor</p>
@@ -74,14 +84,17 @@
                         </div>
                     </div>
                     <div class="project-card">
-                        <div class="project-placeholder">
-                            <span>Coming Soon</span>
-                        </div>
-                        <h3>Project Three</h3>
-                        <p>A collaborative effort that showcases teamwork and technical excellence in software development.</p>
+                        <video class="project-video" autoplay muted loop playsinline preload="auto">
+                            <source src="Images/Robot Video.mov" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <h3>Autonomous Robotics System</h3>
+                        <p>An intelligent robot capable of navigation, object detection, and autonomous decision-making using sensor fusion and control algorithms.</p>
                         <div class="project-tags">
+                            <span class="tag">Robotics</span>
+                            <span class="tag">ROS</span>
+                            <span class="tag">Computer Vision</span>
                             <span class="tag">Python</span>
-                            <span class="tag">API</span>
                         </div>
                     </div>
                 </div>
